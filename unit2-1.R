@@ -19,24 +19,24 @@ F
 True
 true
 
-8 > 7 # �P�_ 8 �O�_???�� 7
-8 < 7 # �P�_ 8 �O�_???�� 7
-8 >= 7 # �P�_ 8 �O�_???�󵥩� 7
-8 <= 7 # �P�_ 8 �O�_???�󵥩� 7
-8 == 7 # �P�_ 8 �O�_���� 7
-8 != 7 # �P�_ 8 �O�_������ 7
-7 %in% c(8, 7) # �P�_ 7 �O�_�]�t��???�� c(8, 7) ����
+8 > 7 # 判斷 8 是否???於 7
+8 < 7 # 判斷 8 是否???於 7
+8 >= 7 # 判斷 8 是否???於等於 7
+8 <= 7 # 判斷 8 是否???於等於 7
+8 == 7 # 判斷 8 是否等於 7
+8 != 7 # 判斷 8 是否不等於 7
+7 %in% c(8, 7) # 判斷 7 是否包含於???個 c(8, 7) 之中
 
 first_name <- "Tony"
 first_name
 class(first_name)
 
-sys_date <- Sys.Date() # �t��???��
-sys_date # �ݰ_�Ӹ�???�r�ۦP
+sys_date <- Sys.Date() # 系統???期
+sys_date # 看起來跟???字相同
 class(sys_date)
 
-sys_time <- Sys.time() # �t�ήɶ�
-sys_time # �ݰ_�Ӹ�???�r�ۦP
+sys_time <- Sys.time() # 系統時間
+sys_time # 看起來跟???字相同
 class(sys_time)
 
 my_weight
